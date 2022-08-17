@@ -4,16 +4,6 @@ public class Boss {
     private String protectinType;
 
 
-    public Boss(int health) {
-        this.health = health;
-    }
-
-    public Boss(int health, int damage) {
-        this.health = health;
-        this.damage = damage;
-    }
-
-
     public int getHealth() {
         return health;
     }
@@ -38,11 +28,6 @@ public class Boss {
         this.protectinType = protectinType;
     }
 
-    public Boss(int health, int damage, String protectinType) {
-        this.health = health;
-        this.damage = damage;
-        this.protectinType = protectinType;
-
-    }
 }
+
 
